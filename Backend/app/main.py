@@ -6,6 +6,17 @@ Layer 4: API Orchestration + Persistence + Explanation + What-If + Feedback
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+# Ensure project root and Backend directory are on sys.path for Render/Docker/local environments
+_BACKEND_DIR = Path(__file__).resolve().parent.parent
+_REPO_ROOT = _BACKEND_DIR.parent
+for _p in (_REPO_ROOT, _BACKEND_DIR):
+    _ps = str(_p)
+    if _ps not in sys.path:
+        sys.path.insert(0, _ps)
+
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI

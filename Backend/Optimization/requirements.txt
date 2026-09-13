@@ -1,0 +1,5 @@
+# RailSync Layer 3 - Optimization Engine Dependencies
+# Technology: Google OR-Tools CP-SAT for Constraint Programming and Optimization
+
+ortools>=9.8.3296
+pydantic>=2.0.0

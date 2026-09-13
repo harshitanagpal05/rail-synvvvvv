@@ -8,6 +8,17 @@ and fast re-optimization directly to the Optimization package.
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+# Ensure repo root and Backend directory are in sys.path
+_LAYER3_DIR = Path(__file__).resolve().parent
+_BACKEND_DIR = _LAYER3_DIR.parent.parent
+_REPO_ROOT = _BACKEND_DIR.parent
+for _cand in (_REPO_ROOT, _BACKEND_DIR):
+    if str(_cand) not in sys.path:
+        sys.path.insert(0, str(_cand))
+
 import uuid
 from datetime import datetime, timedelta
 from typing import Any, Optional, Dict, List

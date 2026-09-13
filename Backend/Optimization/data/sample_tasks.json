@@ -1,0 +1,172 @@
+{
+  "description": "RailSync Synthetic Dataset - Indian Railways Delhi-Kanpur Golden Corridor Maintenance Scenario",
+  "metadata": {
+    "zone": "Northern Railway & North Central Railway",
+    "section": "New Delhi (NDLS) - Ghaziabad (GZB) - Aligarh (ALJN) - Tundla (TDL) - Kanpur Central (CNB)",
+    "scenario": "Layer 3 Maintenance Block Optimization"
+  },
+  "tasks": [
+    {
+      "task_id": "TSK-001",
+      "segment": "NDLS-GZB-UP",
+      "claimed_criticality": "CRITICAL",
+      "min_duration_hrs": 3.0,
+      "risk_30d": 0.88,
+      "preferred_window": "BLK-01",
+      "description": "Ultrasonic Flaw Detection (USFD) flagged rail fracture risk near Sahibabad yard"
+    },
+    {
+      "task_id": "TSK-002",
+      "segment": "GZB-ALJN-DN",
+      "claimed_criticality": "CRITICAL",
+      "min_duration_hrs": 3.5,
+      "risk_30d": 0.79,
+      "preferred_window": "BLK-01",
+      "description": "Overhead Equipment (OHE) catenary wire wear & dropper replacement"
+    },
+    {
+      "task_id": "TSK-003",
+      "segment": "ALJN-TDL-UP",
+      "claimed_criticality": "HIGH",
+      "min_duration_hrs": 2.5,
+      "risk_30d": 0.65,
+      "preferred_window": "BLK-02",
+      "description": "Point machine replacement and interlocking signal calibration at Hathras Junction"
+    },
+    {
+      "task_id": "TSK-004",
+      "segment": "TDL-ETW-DN",
+      "claimed_criticality": "MEDIUM",
+      "min_duration_hrs": 2.0,
+      "risk_30d": 0.42,
+      "preferred_window": "BLK-03",
+      "description": "Track tamping and ballast regulating machine run on down line"
+    },
+    {
+      "task_id": "TSK-005",
+      "segment": "ETW-CNB-UP",
+      "claimed_criticality": "LOW",
+      "min_duration_hrs": 1.5,
+      "risk_30d": 0.18,
+      "preferred_window": null,
+      "description": "Routine sleeper fastening tightening and drainage clearing"
+    },
+    {
+      "task_id": "TSK-006",
+      "segment": "NDLS-GZB-UP",
+      "claimed_criticality": "MEDIUM",
+      "min_duration_hrs": 2.0,
+      "risk_30d": 0.35,
+      "preferred_window": "BLK-02",
+      "description": "Track circuit bonding renewal near Anand Vihar terminal"
+    },
+    {
+      "task_id": "TSK-007",
+      "segment": "GZB-ALJN-DN",
+      "claimed_criticality": "LOW",
+      "min_duration_hrs": 2.0,
+      "risk_30d": 0.22,
+      "preferred_window": null,
+      "description": "Lubrication of check rails and level crossing flangeway cleaning"
+    },
+    {
+      "task_id": "TSK-008",
+      "segment": "TDL-ETW-DN",
+      "claimed_criticality": "CRITICAL",
+      "min_duration_hrs": 4.0,
+      "risk_30d": 0.92,
+      "preferred_window": "BLK-01",
+      "description": "Emergency turnout tongue rail replacement at Shikohabad"
+    }
+  ],
+  "blocks": [
+    {
+      "block_id": "BLK-01",
+      "start_time": "2026-09-11 01:00",
+      "end_time": "2026-09-11 05:00",
+      "duration_hrs": 4.0,
+      "window_index": 0,
+      "description": "Night Maintenance Shadow Window (Earliest Next Available Window)",
+      "passenger_conflicts": {
+        "NDLS-GZB-UP": 0,
+        "GZB-ALJN-DN": 0,
+        "ALJN-TDL-UP": 0,
+        "TDL-ETW-DN": 0,
+        "ETW-CNB-UP": 0
+      },
+      "freight_conflicts": {
+        "NDLS-GZB-UP": 1,
+        "GZB-ALJN-DN": 2,
+        "ALJN-TDL-UP": 1,
+        "TDL-ETW-DN": 0,
+        "ETW-CNB-UP": 1
+      }
+    },
+    {
+      "block_id": "BLK-02",
+      "start_time": "2026-09-11 11:30",
+      "end_time": "2026-09-11 14:30",
+      "duration_hrs": 3.0,
+      "window_index": 1,
+      "description": "Mid-day Traffic Lull Window",
+      "passenger_conflicts": {
+        "NDLS-GZB-UP": 2,
+        "GZB-ALJN-DN": 0,
+        "ALJN-TDL-UP": 0,
+        "TDL-ETW-DN": 1,
+        "ETW-CNB-UP": 0
+      },
+      "freight_conflicts": {
+        "NDLS-GZB-UP": 0,
+        "GZB-ALJN-DN": 1,
+        "ALJN-TDL-UP": 0,
+        "TDL-ETW-DN": 1,
+        "ETW-CNB-UP": 0
+      }
+    },
+    {
+      "block_id": "BLK-03",
+      "start_time": "2026-09-12 01:30",
+      "end_time": "2026-09-12 05:30",
+      "duration_hrs": 4.0,
+      "window_index": 2,
+      "description": "Subsequent Night Track Possession Window",
+      "passenger_conflicts": {
+        "NDLS-GZB-UP": 0,
+        "GZB-ALJN-DN": 0,
+        "ALJN-TDL-UP": 0,
+        "TDL-ETW-DN": 0,
+        "ETW-CNB-UP": 0
+      },
+      "freight_conflicts": {
+        "NDLS-GZB-UP": 1,
+        "GZB-ALJN-DN": 1,
+        "ALJN-TDL-UP": 2,
+        "TDL-ETW-DN": 0,
+        "ETW-CNB-UP": 1
+      }
+    },
+    {
+      "block_id": "BLK-04",
+      "start_time": "2026-09-12 12:00",
+      "end_time": "2026-09-12 14:00",
+      "duration_hrs": 2.0,
+      "window_index": 3,
+      "description": "Short Afternoon Signal Testing Window",
+      "passenger_conflicts": {
+        "NDLS-GZB-UP": 1,
+        "GZB-ALJN-DN": 1,
+        "ALJN-TDL-UP": 0,
+        "TDL-ETW-DN": 0,
+        "ETW-CNB-UP": 1
+      },
+      "freight_conflicts": {
+        "NDLS-GZB-UP": 0,
+        "GZB-ALJN-DN": 0,
+        "ALJN-TDL-UP": 0,
+        "TDL-ETW-DN": 0,
+        "ETW-CNB-UP": 0
+      }
+    }
+  ]
+}
