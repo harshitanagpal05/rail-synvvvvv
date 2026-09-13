@@ -1,0 +1,2 @@
+brier_score_30d,c_index,top20_precision,base_rate,top20_lift_vs_base_rate,test_at_risk_segments,n_30d_anchor_rows,duration_test_mae_hrs,duration_test_rmse_hrs,overrun_test_auc,model_contract,weibull_shape_rho
+0.009337584572789768,0.7973856209150327,0.0,0.0,,53,318,0.6458466102230931,0.9739840942530844,0.64,"{'primary': 'Weibull AFT conditional 30-day survival', 'duration_head': 'XGBoost actual-duration regressor + overrun classifier', 'cold_start': 'Weibull prior by asset_type + age bucket'}",1.2388008045539047

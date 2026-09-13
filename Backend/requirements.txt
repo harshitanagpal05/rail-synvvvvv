@@ -1,0 +1,31 @@
+# RailSync 2.0 — Layer 4 Backend Dependencies
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Data validation
+pydantic==2.11.1
+pydantic-settings==2.9.1
+
+# Database
+sqlalchemy==2.0.40
+psycopg2-binary==2.9.10
+alembic==1.15.2
+
+# Environment
+python-dotenv==1.1.0
+
+# ML / Optimization (used by Layer 0-3 adapters)
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.6.1
+xgboost==2.1.4
+lifelines==0.30.0
+ortools==9.12.4544
+
+# Testing
+pytest==8.3.5
+httpx==0.28.1
+pytest-asyncio==0.25.3

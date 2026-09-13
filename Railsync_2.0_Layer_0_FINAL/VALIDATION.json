@@ -1,0 +1,35 @@
+{
+  "layer": "0",
+  "status": "FINAL_SYNTHETIC_DATASET",
+  "segments": 50,
+  "divisions": [
+    "Agra",
+    "Delhi"
+  ],
+  "asset_types": [
+    "S&T",
+    "Track",
+    "Traction/OHE"
+  ],
+  "required_segment_columns_present": true,
+  "defect_events": 40,
+  "observation_start": "2024-01-01",
+  "observation_end": "2025-12-31",
+  "maintenance_tasks": 602,
+  "maintenance_overrun_rate": 0.196,
+  "train_records": 40,
+  "fixed_train_records": 30,
+  "variable_freight_records": 10,
+  "corridor_block_records": 36550,
+  "survival_records": 50,
+  "failure_records": 4,
+  "right_censored_records": 46,
+  "hazard_audit_rows": 36550,
+  "seed": 42,
+  "causal_rules": {
+    "grade3_2plus_90d": "8x",
+    "track_monsoon_jun_sep": "1.5x",
+    "high_freight_age_gt30": "2x",
+    "each_active_overdue_task": "1.5x"
+  }
+}

@@ -1,0 +1,76 @@
+id,division,asset_type,length_km,age_years,installation_year,curve_gradient_class,monsoon_exposure,freight_density_class,corridor
+SEG-001,Delhi,Track,53.2,33.1,1992,Med-Moderate,Low,Low,Delhi-Mumbai Rajdhani Corridor
+SEG-002,Delhi,Traction/OHE,52.55,7.8,2018,Low-Flat,High,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-003,Delhi,Track,56.66,7.4,2018,Low-Flat,High,Low,Delhi-Mumbai Rajdhani Corridor
+SEG-004,Delhi,S&T,54.03,36.0,1990,Low-Moderate,Medium,High,Delhi-Mumbai Rajdhani Corridor
+SEG-005,Delhi,Track,53.29,43.9,1982,High-Steep,Medium,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-006,Jaipur,S&T,52.94,48.0,1978,Low-Flat,Low,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-007,Jaipur,Traction/OHE,55.12,42.8,1983,Med-Moderate,Low,High,Delhi-Mumbai Rajdhani Corridor
+SEG-008,Jaipur,S&T,57.34,8.9,2017,Low-Flat,High,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-009,Jaipur,S&T,52.63,32.1,1993,Low-Moderate,High,Low,Delhi-Mumbai Rajdhani Corridor
+SEG-010,Kota,S&T,54.64,13.7,2012,Low-Flat,Low,Low,Delhi-Mumbai Rajdhani Corridor
+SEG-011,Kota,S&T,53.62,24.3,2001,Low-Moderate,Medium,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-012,Kota,Traction/OHE,53.39,15.5,2010,Low-Flat,High,High,Delhi-Mumbai Rajdhani Corridor
+SEG-013,Kota,Track,58.3,37.3,1988,High-Steep,Medium,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-014,Ratlam,Traction/OHE,57.42,33.1,1992,Low-Moderate,High,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-015,Ratlam,Track,53.97,39.5,1986,Low-Flat,Medium,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-016,Ratlam,Traction/OHE,55.36,12.9,2013,Med-Moderate,Low,High,Delhi-Mumbai Rajdhani Corridor
+SEG-017,Ratlam,Traction/OHE,53.2,44.6,1981,High-Steep,Low,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-018,Vadodara,Traction/OHE,54.93,38.0,1987,Med-Moderate,High,High,Delhi-Mumbai Rajdhani Corridor
+SEG-019,Vadodara,S&T,55.32,30.4,1995,Low-Moderate,Low,High,Delhi-Mumbai Rajdhani Corridor
+SEG-020,Vadodara,Track,57.11,38.5,1987,Low-Moderate,High,Low,Delhi-Mumbai Rajdhani Corridor
+SEG-021,Vadodara,Track,58.34,22.8,2003,High-Steep,Medium,High,Delhi-Mumbai Rajdhani Corridor
+SEG-022,Mumbai,Traction/OHE,53.05,27.9,1998,Low-Flat,High,High,Delhi-Mumbai Rajdhani Corridor
+SEG-023,Mumbai,S&T,54.97,44.6,1981,Med-Moderate,Low,Medium,Delhi-Mumbai Rajdhani Corridor
+SEG-024,Mumbai,Traction/OHE,55.41,24.3,2001,Med-Moderate,High,Low,Delhi-Mumbai Rajdhani Corridor
+SEG-025,Mumbai,Traction/OHE,56.01,8.0,2017,Med-Moderate,High,High,Delhi-Mumbai Rajdhani Corridor
+SEG-026,Delhi,Track,57.81,10.2,2015,Low-Flat,High,Medium,Delhi-Howrah Main Line
+SEG-027,Delhi,S&T,56.33,8.3,2017,Med-Moderate,Low,Low,Delhi-Howrah Main Line
+SEG-028,Delhi,Track,59.78,29.7,1996,Low-Flat,High,Medium,Delhi-Howrah Main Line
+SEG-029,Delhi,Traction/OHE,57.73,49.0,1977,Low-Moderate,Low,High,Delhi-Howrah Main Line
+SEG-030,Delhi,S&T,59.41,28.8,1997,High-Steep,Low,High,Delhi-Howrah Main Line
+SEG-031,Allahabad,Traction/OHE,58.78,35.4,1990,Med-Moderate,Medium,High,Delhi-Howrah Main Line
+SEG-032,Allahabad,Traction/OHE,56.23,23.6,2002,High-Steep,Low,Low,Delhi-Howrah Main Line
+SEG-033,Allahabad,Traction/OHE,54.92,18.9,2007,Low-Moderate,High,Low,Delhi-Howrah Main Line
+SEG-034,Allahabad,Track,60.04,36.3,1989,Low-Moderate,Low,Low,Delhi-Howrah Main Line
+SEG-035,Allahabad,Track,56.17,6.3,2019,Med-Moderate,High,Medium,Delhi-Howrah Main Line
+SEG-036,Mughal Sarai,Traction/OHE,59.72,9.2,2016,High-Steep,Low,Medium,Delhi-Howrah Main Line
+SEG-037,Mughal Sarai,Track,57.35,11.9,2014,High-Steep,Medium,Medium,Delhi-Howrah Main Line
+SEG-038,Mughal Sarai,Track,59.25,43.6,1982,Low-Flat,Low,Medium,Delhi-Howrah Main Line
+SEG-039,Mughal Sarai,Track,58.1,40.6,1985,Low-Moderate,Low,Low,Delhi-Howrah Main Line
+SEG-040,Mughal Sarai,Track,60.13,9.6,2016,Med-Moderate,Medium,Low,Delhi-Howrah Main Line
+SEG-041,Dhanbad,Traction/OHE,60.88,6.5,2019,Low-Flat,Low,High,Delhi-Howrah Main Line
+SEG-042,Dhanbad,Track,57.79,42.3,1983,Low-Moderate,Low,Medium,Delhi-Howrah Main Line
+SEG-043,Dhanbad,S&T,54.89,13.0,2012,Low-Flat,Low,Medium,Delhi-Howrah Main Line
+SEG-044,Dhanbad,S&T,60.62,21.3,2004,Med-Moderate,Medium,High,Delhi-Howrah Main Line
+SEG-045,Dhanbad,Traction/OHE,56.66,49.8,1976,High-Steep,Low,Low,Delhi-Howrah Main Line
+SEG-046,Howrah,Traction/OHE,55.22,48.5,1977,Low-Flat,High,Medium,Delhi-Howrah Main Line
+SEG-047,Howrah,Traction/OHE,55.36,30.5,1995,Low-Moderate,Low,High,Delhi-Howrah Main Line
+SEG-048,Howrah,Traction/OHE,57.3,11.7,2014,Low-Flat,High,Low,Delhi-Howrah Main Line
+SEG-049,Howrah,Traction/OHE,55.12,47.3,1978,Low-Moderate,High,High,Delhi-Howrah Main Line
+SEG-050,Howrah,Traction/OHE,58.9,6.9,2019,Med-Moderate,Medium,Low,Delhi-Howrah Main Line
+SEG-051,Chennai,S&T,52.03,17.8,2008,High-Steep,Low,High,Chennai-Mumbai Trunk Route
+SEG-052,Chennai,Track,54.15,24.5,2001,Low-Flat,Medium,High,Chennai-Mumbai Trunk Route
+SEG-053,Chennai,Track,48.95,49.8,1976,Low-Moderate,High,Medium,Chennai-Mumbai Trunk Route
+SEG-054,Chennai,Track,49.11,19.4,2006,Low-Moderate,Medium,Medium,Chennai-Mumbai Trunk Route
+SEG-055,Chennai,Traction/OHE,51.33,42.2,1983,Med-Moderate,High,High,Chennai-Mumbai Trunk Route
+SEG-056,Renigunta,Traction/OHE,53.79,34.4,1991,Med-Moderate,High,Low,Chennai-Mumbai Trunk Route
+SEG-057,Renigunta,Track,49.09,9.3,2016,Low-Flat,High,High,Chennai-Mumbai Trunk Route
+SEG-058,Renigunta,Track,51.97,16.2,2009,Med-Moderate,Low,High,Chennai-Mumbai Trunk Route
+SEG-059,Renigunta,S&T,51.97,15.4,2010,Med-Moderate,Low,Low,Chennai-Mumbai Trunk Route
+SEG-060,Guntakal,Track,51.98,42.0,1984,Low-Flat,Medium,Low,Chennai-Mumbai Trunk Route
+SEG-061,Guntakal,Traction/OHE,50.73,15.3,2010,High-Steep,High,High,Chennai-Mumbai Trunk Route
+SEG-062,Guntakal,Track,53.17,3.5,2022,Low-Moderate,High,Low,Chennai-Mumbai Trunk Route
+SEG-063,Guntakal,Track,50.01,30.4,1995,High-Steep,Low,Low,Chennai-Mumbai Trunk Route
+SEG-064,Solapur,Track,49.66,45.3,1980,Med-Moderate,Low,High,Chennai-Mumbai Trunk Route
+SEG-065,Solapur,Traction/OHE,49.09,7.8,2018,High-Steep,High,High,Chennai-Mumbai Trunk Route
+SEG-066,Solapur,Track,49.24,46.7,1979,Low-Moderate,Medium,Low,Chennai-Mumbai Trunk Route
+SEG-067,Solapur,S&T,52.88,46.5,1979,Low-Moderate,Medium,Low,Chennai-Mumbai Trunk Route
+SEG-068,Pune,Track,53.06,8.1,2017,High-Steep,Low,Low,Chennai-Mumbai Trunk Route
+SEG-069,Pune,S&T,52.12,24.6,2001,Low-Moderate,Low,Low,Chennai-Mumbai Trunk Route
+SEG-070,Pune,S&T,52.01,21.7,2004,Low-Flat,Medium,Medium,Chennai-Mumbai Trunk Route
+SEG-071,Pune,Traction/OHE,53.42,21.8,2004,Med-Moderate,Low,Low,Chennai-Mumbai Trunk Route
+SEG-072,Mumbai,Traction/OHE,51.74,15.3,2010,Med-Moderate,Low,Low,Chennai-Mumbai Trunk Route
+SEG-073,Mumbai,S&T,48.85,19.2,2006,High-Steep,High,High,Chennai-Mumbai Trunk Route
+SEG-074,Mumbai,Track,50.78,45.3,1980,Med-Moderate,Low,High,Chennai-Mumbai Trunk Route
+SEG-075,Mumbai,Traction/OHE,48.58,27.4,1998,Low-Moderate,Medium,Medium,Chennai-Mumbai Trunk Route
